@@ -1,5 +1,4 @@
 {
-  {
   "name": "Vyrn",
   "version": "0.0.1",
   "description": "Just a random bot",
@@ -21,7 +20,8 @@
   "main": "vyrn.js",
   "directories": {
     "commands": "./commands",
-    "events": "./events"
+    "events": "./events",
+    "emo": "./emo"
   },
   "dependencies": {
     "discord.js": "11.1.0",
