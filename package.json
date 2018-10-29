@@ -6,9 +6,8 @@
   "scripts": {
     "start": "node vyrn.js"
   },
-  "author": "Dusty535",
-  "license": "ISC",
   "dependencies": {
     "discord.js": "11.1.0",
     "resquest": "2.81.0"
   }
+}
