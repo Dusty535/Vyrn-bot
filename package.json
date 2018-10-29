@@ -1,0 +1,14 @@
+{
+  "name": "Vyrn bot",
+  "description": "Just a random bot",
+  "version" : "0.0.1",
+  "main": "vyrn.js",
+  "scripts": {
+    "start": "vyrn.js"
+    },
+    "dependancies": {
+      "discord.js": "11.1.0"
+      "yydl-core": "0.10.4"
+      "ffmpeg": "4.0"
+    }
+}
