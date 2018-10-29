@@ -1,1 +1,1 @@
-eyzalts: node vyrn.js
+worker: node vyrn.js
