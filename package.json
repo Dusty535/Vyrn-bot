@@ -28,6 +28,7 @@
     "ytdl-core": "0.27.0",
     "enmap": "4.3.3",
     "node-opus": "0.3.0",
-    "file-system": "2.2.2"
+    "file-system": "2.2.2",
+    "ffmpeg": "0.0.4"
   }
 }
