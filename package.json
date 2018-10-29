@@ -4,7 +4,7 @@
   "version" : "0.0.1",
   "main": "vyrn.js",
   "scripts": {
-    "start": "node vyrn.js"
+     "start": "node vyrn.js"
     },
     "dependancies": {
       "discord.js": "11.1.0",
