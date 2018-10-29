@@ -1,13 +1,19 @@
 {
-  "name": "Vyrn bot",
+  "name": "vyrn.js",
+  "version": "0.0.1",
   "description": "Just a random bot",
-  "version" : "0.0.1",
   "main": "vyrn.js",
   "scripts": {
-     "start": "node vyrn.js"
-    },
-    "dependancies": {
-      "discord.js": "11.1.0",
-      "request": "2.81.0"
-    }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dusty535",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dusty535/Vyrn-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dusty535/Vyrn-bot/issues"
+  },
+  "homepage": "https://github.com/Dusty535/Vyrn-bot#readme"
 }
