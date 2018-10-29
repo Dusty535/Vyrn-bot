@@ -1,5 +1,5 @@
 {
-  "name": "vyrn.js",
+  "name": "Vyrn",
   "version": "0.0.1",
   "description": "Just a random bot",
   "main": "vyrn.js",
@@ -8,15 +8,6 @@
   },
   "author": "Dusty535",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dusty535/Vyrn-bot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Dusty535/Vyrn-bot/issues"
-  },
-  "homepage": "https://github.com/Dusty535/Vyrn-bot#readme"
-}
   "dependencies": {
     "discord.js": "11.1.0",
     "resquest": "2.81.0"
