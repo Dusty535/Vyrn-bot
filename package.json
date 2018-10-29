@@ -10,7 +10,7 @@
     "discord.js": "11.1.0",
     "request": "2.81.0",
     "ytdl-core": "0.27.0",
-    "enmap": "4.3.3"
-    "node-opus": "^0.2.4",
+    "enmap": "4.3.3",
+    "node-opus": "^0.2.4"
   }
 }
