@@ -7,8 +7,9 @@
     "start": "vyrn.js"
     },
     "dependancies": {
-      "discord.js": "11.1.0"
-      "yydl-core": "0.10.4"
-      "ffmpeg": "4.0"
+      "discord.js": "11.1.0",
+      "yydl-core": "0.10.4",
+      "ffmpeg": "4.0",
+      "request": "2.81.0"
     }
 }
