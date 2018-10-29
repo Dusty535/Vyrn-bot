@@ -5,11 +5,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 client.config = config;
 client.on("ready", (message) => {
-  client.user.setActivity("fuir Katalina")
-  var generalChannel = client.channels.get('505425489494540317')
-  generalChannel.send("Hello, everyone !");
-  generalChannel.send({files: ["./emo/here_goes.png"]});
-  
+  client.user.setActivity("fuir Katalina") 
 });
 
 client.on('ready', () => {
