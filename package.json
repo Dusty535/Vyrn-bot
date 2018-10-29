@@ -4,7 +4,7 @@
   "description": "Just a random bot",
   "main": "vyrn.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node vyrn.js"
   },
   "author": "Dusty535",
   "license": "ISC",
@@ -17,3 +17,7 @@
   },
   "homepage": "https://github.com/Dusty535/Vyrn-bot#readme"
 }
+  "dependencies": {
+    "discord.js": "11.1.0"
+    "resquest": "2.81.0"
+  }
