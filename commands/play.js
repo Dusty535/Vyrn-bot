@@ -5,12 +5,12 @@ exports.run = (client, message, args) => {
     message.reply("Please link a Youtube video")
     return;
   }
-    var voiceChannel = message.guild.channels
-      .filter(function (channel) { return channel.type === 'voice' })
-      .first()
-  // On récupère les arguments de la commande 
-  // il faudrait utiliser une expression régulière pour valider le lien youtube
-  // On rejoint le channel audio
+  if (!message.member.voiceChannel){
+    message.reply("You must me in a voice channel")
+    return;
+  }
+    var voiceChannel = message.member.voiceChannel
+ 
   voiceChannel
   .join()
   .then(function(connection) {
@@ -25,4 +25,4 @@ exports.run = (client, message, args) => {
     connection.disconnect()
   }
 })
-}
+} 
