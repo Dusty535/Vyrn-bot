@@ -29,6 +29,6 @@
     "enmap": "4.3.3",
     "node-opus": "0.3.0",
     "file-system": "2.2.2",
-    "ffmpeg": "4.0.2"
+    "ffmpeg-binaries": "4.0.0"
   }
 }
