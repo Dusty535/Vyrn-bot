@@ -14,15 +14,15 @@ exports.run = (client, message, args) => {
   voiceChannel
   .join()
   .then(function(connection) {
- //   try{
+    try{
     let stream = YoutubeStream(args[0])
     connection.playStream(stream).on('end', function() {
     connection.disconnect()
     message.channel.send("I'm done")
   })
- // } catch (e) {
-//    message.reply("What is this link dude :angry:")
-//    connection.disconnect()
-//  }
+  } catch (e) {
+    message.reply("What is this link dude :angry:")
+    connection.disconnect()
+  }
 })
 } 
