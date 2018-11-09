@@ -2,7 +2,7 @@ exports.run = (client, message, args) => {
 if (args.length ==0){
     message.channel.send("https://gbf.wiki/Stickers#English");
 }
-if (args == list){
+if (args == 'list'){
 message.channel.send('Mdr t'a cru il y a BEAUCOUP d'émotes go sur https://gbf.wiki/Stickers#English')
   
 }
