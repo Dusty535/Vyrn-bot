@@ -5,7 +5,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 client.config = config;
 client.on("ready", (message) => {
-  client.user.setActivity("fuir Katalina") 
+  client.user.setActivity("fuck @everyone") 
 });
 
 client.on('ready', () => {
